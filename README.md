@@ -1,24 +1,16 @@
-# README
+# Test API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+API built as an example.
 
-Things you may want to cover:
+### Uses
+ - Ruby 2.4.1
+ - Rails 5.1.2
+ - Tests [ Rspec, FactoryGirl and Faker ]
+ - Address [ correios-cep ]
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### How it was built
+ - Rails 5 app created in API mode
+ - Added user model with model tests
+ - Added user controller with controller tests
+ - Added correrios-cep gem with some validation
+ - Added e-mail validation
